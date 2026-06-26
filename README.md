@@ -35,4 +35,4 @@ about_me_project/
 pip install -r requirements.txt
 
 # Запуск бота с передачей токенов (замените на свои значения)
-python main.py --token=ваш_токен_телеграм_бота --gemini=ваш_ключ_gemini
+python main.py --token='ваш_токен_телеграм_бота' --gemini='ваш_ключ_gemini'
