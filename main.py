@@ -120,7 +120,7 @@ def handle_text_menu(message):
             bot.send_message(message.chat.id, response, parse_mode="HTML", disable_web_page_preview=True)
 
         elif "GitHub и Ссылки" in text:
-            github_url = "https://github.com/your-username/portfolio-bot" # ЗАМЕНИТЕ НА СВОЙ СУЩЕСТВУЮЩИЙ РЕПОЗИТОРИЙ
+            github_url = "https://github.com/ksavyvxx/about-me-bot"
             bot.send_message(message.chat.id, f"📂 <b>Исходный код этого бота:</b>\n{github_url}\n\n", disable_web_page_preview=True)
 
         else:
